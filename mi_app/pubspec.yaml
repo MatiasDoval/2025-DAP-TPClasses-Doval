@@ -1,0 +1,33 @@
+name: mi_app
+
+description: "App lista"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  go_router: ^16.0.0
+  flutter_riverpod: ^2.6.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+## Imagenes cargadas de perfumes
+  assets:
+    - assets/images/EROS-FLAME-EDP2.jpg
+    - assets/images/LE-BEAU-LE-PARFUM-ingredients-600x727.jpg
+    - assets/images/le-male.jpg
+    - assets/images/pregunta.png
